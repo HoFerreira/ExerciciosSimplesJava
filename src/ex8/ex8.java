@@ -14,7 +14,7 @@ public class ex8 {
         double ganhoPorHora = scan.nextDouble();
 
         System.out.println("Quantas horas vc trabalha no mês?");
-        int horasTrabalhas = scan.nextInt();
+        double horasTrabalhas = scan.nextDouble();
 
         double salarioDoMes = ganhoPorHora * horasTrabalhas;
         System.out.println("Vc ganha " + salarioDoMes + " por mês.");

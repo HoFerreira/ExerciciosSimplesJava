@@ -10,7 +10,7 @@ public class ex9 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Qual a temperatura em Farenheit?");
-        int tempFarenheit = scan.nextInt();
+        double tempFarenheit = scan.nextDouble();
 
         double celsius;
 
