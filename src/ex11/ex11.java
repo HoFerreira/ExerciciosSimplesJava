@@ -22,7 +22,7 @@ public class ex11 {
         System.out.println("Digite o número real");
         double numeroReal = scan.nextDouble();
 
-        double resultadoA = (2 * primeiroInteiro) * (segundoInteiro / 2);
+        int resultadoA = (2 * primeiroInteiro) * (segundoInteiro / 2);
         System.out.println(resultadoA);
 
         double resultadoB = (3 * primeiroInteiro) + numeroReal;
