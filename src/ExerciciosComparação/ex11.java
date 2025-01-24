@@ -46,6 +46,6 @@ public class ex11 {
         System.out.println("O salário antes do reajuste era " + salAtual);
         System.out.println("O percentual de aumento aplicado foi " + percAumento);
         System.out.println("O valor do aumento foi " + valorAumento);
-        System.out.println("O novo salário após o aumento foi " + salNovo);
+        System.out.println("O novo salário após o aumento foi de " + salNovo);
     }
 }
