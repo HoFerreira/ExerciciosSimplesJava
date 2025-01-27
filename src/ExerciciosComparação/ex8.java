@@ -21,13 +21,13 @@ public class ex8 {
 
         double maisBarato;
 
-        if (preco1 < preco2 && preco1 < preco3){
+        if (preco1 <= preco2 && preco1 <= preco3){
             maisBarato = preco1;
-        } else if (preco2 < preco1 && preco2 < preco3) {
+        } else if (preco2 <= preco1 && preco2 <= preco3) {
             maisBarato = preco2;
         } else {
             maisBarato = preco3;
         }
-        System.out.println("O preço mais barato foi " + maisBarato);
+        System.out.println("O produto mais barato foi " + maisBarato);
     }
 }

@@ -17,10 +17,10 @@ public class ex5 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Digite a primeira nota");
-        int nota1 =  scan.nextInt();
+        double nota1 =  scan.nextDouble();
 
         System.out.println("Digite a segunda nota");
-        int nota2 = scan.nextInt();
+        double nota2 = scan.nextDouble();
 
         double media = (nota1 + nota2) / 2;
 
