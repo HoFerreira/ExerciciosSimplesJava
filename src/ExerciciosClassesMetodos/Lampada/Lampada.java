@@ -1,4 +1,4 @@
-package ExerciciosClassesMetodos;
+package ExerciciosClassesMetodos.Lampada;
 
 /*
 Escreva uma classe para representar uma lâmpada. Desenvolva métodos
