@@ -17,9 +17,11 @@ public class Lampada {
     void ligarLampada() {
         ligada = true;
     }
+
     void  desligarLampada() {
         ligada = false;
     }
+
     void mostrarEstado(){
         if (ligada ){
             System.out.println("Lampada está ligada");
@@ -27,6 +29,7 @@ public class Lampada {
             System.out.println("Lampada está desligada");
         }
     }
+
     void mudarEstado(){
         if (ligada){
             desligarLampada();
